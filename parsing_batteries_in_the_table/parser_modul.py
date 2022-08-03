@@ -15,9 +15,6 @@ class Parser:
     def __back__(self) -> None:
         self.browser.back()
 
-    def __cookies__ (self) -> None:
-        self.browser.find_element(By.CLASS_NAME,"btn btn-пкун btn-gradient btn-sm").click()
-
     def __next__(self) -> None:
         self.browser.find_element(By.LINK_TEXT,"След.").click()
 
